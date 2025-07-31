@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Cabang - DreamHome</title>
+    <link rel="stylesheet" href="../css/admin-style.css">
+</head>
+<body>
+    <div class="admin-layout">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin Panel</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="properties.html">Manajemen Properti</a></li>
+                    <li><a href="staff.html">Manajemen Staf</a></li>
+                    <li class="active"><a href="branch.html">Manajemen Cabang</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="logout-btn">Logout</button>
+            </div>
+        </aside>
+        <main class="main-content">
+            <header class="main-header">
+                <h1 id="form-title-branch">Tambah Cabang Baru</h1>
+            </header>
+            <div class="content-area">
+                <div class="form-container">
+                    <form id="branch-form">
+                        <div class="form-group">
+                            <label for="branchNo">Nomor Cabang</label>
+                            <input type="text" id="branchNo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="street">Jalan</label>
+                            <input type="text" id="street" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Kota</label>
+                            <input type="text" id="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="postcode">Kode Pos</label>
+                            <input type="text" id="postcode" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success">Simpan Perubahan</button>
+                        <a href="branch.html" class="btn btn-secondary">Batal</a>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../js/auth.js"></script>
+    <script src="../js/admin.js"></script>
+</body>
+</html>
