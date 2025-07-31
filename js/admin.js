@@ -1,7 +1,7 @@
 // This script handles logic for the admin panel pages
 
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'http://dreamhome-proyek.gt.tc/backend/public/api';
+    const API_BASE_URL = 'https://dreamhome-proyek.gt.tc/backend/public/api';
 
     // =================================================================
     // LOGIKA UNTUK MENERAPKAN IZIN BERDASARKAN PERAN
