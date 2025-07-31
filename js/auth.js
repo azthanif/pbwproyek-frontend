@@ -2,7 +2,7 @@
 // Bertanggung jawab untuk semua logika autentikasi: login, logout, dan pemeriksaan sesi.
 
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'http://dreamhome-proyek.gt.tc/backend/public/api'; // Sesuaikan dengan URL API Anda
+    const API_BASE_URL = 'https://dreamhome-proyek.gt.tc/backend/public/api'; // Sesuaikan dengan URL API Anda
 
     const loginForm = document.getElementById('login-form');
     const logoutBtn = document.getElementById('logout-btn');
