@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // URL dasar untuk backend API kita
-    const API_BASE_URL = 'http://dreamhome-proyek.gt.tc/backend/public/api';
+    const API_BASE_URL = 'https://dreamhome-proyek.gt.tc/backend/public/api';
 
     /**
      * Fungsi generik untuk merender properti ke dalam grid.
